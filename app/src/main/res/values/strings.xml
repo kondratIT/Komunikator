@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Komunikator</string>
     <string name="send">Wyślij waidomość</string>
+    <string name="title_activity_recive_message">Druga aktywność</string>
 </resources>
