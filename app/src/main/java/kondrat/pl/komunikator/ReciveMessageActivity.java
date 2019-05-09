@@ -14,11 +14,9 @@ public class ReciveMessageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recive_message);
         Intent intent = getIntent();
-        String messageText = intent.getStringExtra(EXTRA_MESSAGE);
+        //String messageText = intent.getStringExtra(Intent.EXTRA_MESSAGE);
+        String messageText = intent.getStringExtra(Intent.EXTRA_TEXT);
         TextView messageView = findViewById(R.id.message);
         messageView.setText(messageText);
-
-
-
     }
 }
